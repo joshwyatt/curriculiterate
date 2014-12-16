@@ -30,16 +30,6 @@
       }
     };
 
-    //THIS REQUEST OPTIONS IS JUST FOR PLAYING AROUND WITH DURING DEVELOPMENT
-    var testRequestOptions = {
-      method: 'GET',
-      url: 'https://app.asana.com/api/1.0/workspaces',
-      headers: {
-        'Authorization': 'Basic ' + asanaAPIKey
-      }
-    };
-
-
     function requestCallback(err, res, body){
       if( err ){
         console.log('there was an error: ', err);
@@ -48,7 +38,7 @@
       }
     }
 
-    // request(requestOptions, requestCallback);
+    request(requestOptions, requestCallback);
   };
 
 })();

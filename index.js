@@ -1,7 +1,7 @@
 ;(function(){
   'use strict';
   var prompt = require('prompt');
-  var index = require('./index.js');
+  var sendToAsana = require('./send_ticket_to_asana.js');
   var ticket = {};
 
   prompt.start();
@@ -13,7 +13,7 @@
     // console.log('HIRName: ' + result.HIRName);
     // console.log('Email: ' + result.Email);
     // console.log('ExtendedNotes: ' + result.ExtendedNotes);
-    index(ticket);
+    sendToAsana(ticket);
   }
 
 })();
