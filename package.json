@@ -4,13 +4,11 @@
   "description": "The curriculum stays literate yo",
   "main": "index.js",
   "dependencies": {
-    "request": "*",
-    "prompt": "*"
+    "prompt": "^0.2.14",
+    "request": "*"
   },
-  "devDependencies": {
-  },
-  "scripts": {
-  },
+  "devDependencies": {},
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/joshwyatt/curriculiterate.git"
