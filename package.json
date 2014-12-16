@@ -4,7 +4,8 @@
   "description": "The curriculum stays literate yo",
   "main": "index.js",
   "dependencies": {
-    "request": "*"
+    "request": "*",
+    "prompt": "*"
   },
   "devDependencies": {
   },
