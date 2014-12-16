@@ -1,0 +1,19 @@
+{
+  "name": "curriculiterate",
+  "version": "0.0.0",
+  "description": "The curriculum stays literate yo",
+  "main": "index.js",
+  "dependencies": {
+    "request": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshwyatt/curriculiterate.git"
+  },
+  "author": "josh wyatt",
+  "license": "MIT"
+}
