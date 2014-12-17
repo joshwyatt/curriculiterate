@@ -1,11 +1,15 @@
 {
   "name": "curriculiterate",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "The curriculum stays literate yo",
   "main": "index.js",
+  "engines": "0.10.28",
   "dependencies": {
     "prompt": "^0.2.14",
     "request": "*"
+  },
+  "bin": {
+    "curriculiterate": "index.js"
   },
   "devDependencies": {},
   "scripts": {},
