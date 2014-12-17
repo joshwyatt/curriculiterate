@@ -1,6 +1,6 @@
 {
   "name": "curriculiterate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The curriculum stays literate yo",
   "main": "index.js",
   "engines": "0.10.28",
