@@ -33,7 +33,7 @@ module.exports = function(ticket){
     if( err ){
       console.log('there was an error: ', err);
     }else{
-      console.log(body);
+      console.log('Your ticket was successfully sent. Thanks!');
     }
   }
 
